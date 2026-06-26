@@ -1,0 +1,17 @@
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+employees = [
+    {"id": 1, "name": "Prajwal", "department": "IT", "salary": 25000},
+    {"id": 2, "name": "Rahul", "department": "HR", "salary": 30000},
+    {"id": 3, "name": "Sohan", "department": "Finance", "salary": 40000}
+]
+
+@app.route("/")
+def home():
+    return render_template("index.html", employees=employees)
+
+if __name__ == "__main__":
+    app.run(debug=True)
+    
