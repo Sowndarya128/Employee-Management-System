@@ -54,13 +54,13 @@ A full-stack Employee Management System built using **Python**, **Flask**, **SQL
 
 ### Add Employee
 
-![Add Employee](screenshots/add_employee.png)
+![Add Employee](screenshots/addemployee.png)
 
 ---
 
 ### Employee Details
 
-![Employee Details](screenshots/employee_details.png)
+![Employee Details](screenshots/employee_profile.png)
 
 ---
 
