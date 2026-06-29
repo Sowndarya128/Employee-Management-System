@@ -1,26 +1,24 @@
 # 👨‍💼 Employee Management System
 
-A modern Employee Management System built using **Python Flask**, **SQL Server**, **Bootstrap 5**, and **HTML/CSS**.
-
-This application allows administrators to manage employee records efficiently through a clean and responsive web interface.
+A full-stack Employee Management System built using **Python**, **Flask**, **SQL Server**, **Bootstrap 5**, and **GitHub**.
 
 ---
 
-## 🚀 Features
+## 📌 Features
 
 * 🔐 User Login Authentication
 * ➕ Add Employee
 * ✏️ Edit Employee
-* 🗑️ Delete Employee
+* ❌ Delete Employee
 * 🔍 Search Employees
 * 👤 Employee Details Page
-* 📷 Upload Employee Photos
-* 🖼 Display Employee Profile Images
+* 📷 Upload Employee Photo
+* 🖼️ Default Avatar Support
 * 📊 Dashboard Statistics
-* 📥 Export Employees to Excel
+* 📁 Export Employees to Excel
+* 📄 Export Employees to PDF
+* ⚠️ Custom 404 & 500 Error Pages
 * 📱 Responsive Bootstrap Design
-* 💬 Flash Messages
-* ✅ Form Validation
 
 ---
 
@@ -29,74 +27,89 @@ This application allows administrators to manage employee records efficiently th
 * Python
 * Flask
 * SQL Server
-* PyODBC
 * HTML5
 * CSS3
 * Bootstrap 5
-* Bootstrap Icons
+* JavaScript
+* Git
+* GitHub
 * OpenPyXL
-
----
-
-## 📂 Project Structure
-
-```
-EmployeeManagementSystem
-│
-├── app.py
-├── requirements.txt
-├── README.md
-├── static
-│   ├── css
-│   └── uploads
-└── templates
-    ├── index.html
-    ├── add_employee.html
-    ├── edit_employee.html
-    ├── employee_details.html
-    └── login.html
-```
-
----
-
-## ⚙ Installation
-
-1. Clone the repository
-
-```
-git clone https://github.com/yourusername/EmployeeManagementSystem.git
-```
-
-2. Open the project folder
-
-3. Install dependencies
-
-```
-pip install -r requirements.txt
-```
-
-4. Configure SQL Server
-
-* Create the database
-* Create the Employee and Users tables
-* Update the SQL Server name inside `app.py`
-
-5. Run the application
-
-```
-python app.py
-```
+* ReportLab
 
 ---
 
 ## 📸 Screenshots
 
-(Add screenshots here after uploading them to GitHub.)
+### Login Page
+
+![Login](screenshots/login.png)
+
+---
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+### Add Employee
+
+![Add Employee](screenshots/add_employee.png)
+
+---
+
+### Employee Details
+
+![Employee Details](screenshots/employee_details.png)
+
+---
+
+### Excel Export
+
+![Excel Export](screenshots/excel_export.png)
+
+---
+
+### PDF Export
+
+![PDF Export](screenshots/pdf_export.png)
+
+---
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Employee-Management-System.git
+
+cd Employee-Management-System
+
+pip install -r requirements.txt
+
+python app.py
+```
+
+---
+
+## 📂 Project Structure
+
+```text
+EmployeeManagementSystem
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── templates/
+├── static/
+│   └── uploads/
+├── screenshots/
+└── ...
+```
 
 ---
 
 ## 👨‍💻 Author
 
-**Sowndarya R**
+**Prajwal Kumar**
 
-Built as a portfolio project to demonstrate Flask web development, SQL integration, CRUD operations, authentication, file uploads, and Excel export.
+GitHub: https://github.com/YOUR_USERNAME
+
