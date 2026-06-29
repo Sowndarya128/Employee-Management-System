@@ -42,7 +42,7 @@ A full-stack Employee Management System built using **Python**, **Flask**, **SQL
 
 ### Login Page
 
-![Login](screenshots/login.png)
+![Login](screenshots/loginpage.png)
 
 ---
 
