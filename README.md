@@ -79,7 +79,7 @@ A full-stack Employee Management System built using **Python**, **Flask**, **SQL
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Employee-Management-System.git
+git clone https://github.com/Sowndarya128/Employee-Management-System.git
 
 cd Employee-Management-System
 
@@ -111,5 +111,5 @@ EmployeeManagementSystem
 
 **Prajwal Kumar**
 
-GitHub: https://github.com/YOUR_USERNAME
+GitHub: https://github.com/Sowndarya128
 
