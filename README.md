@@ -109,7 +109,7 @@ EmployeeManagementSystem
 
 ## 👨‍💻 Author
 
-**Prajwal Kumar**
+**Sowndarya R**
 
 GitHub: https://github.com/Sowndarya128
 
